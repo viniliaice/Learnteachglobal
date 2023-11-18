@@ -1,4 +1,7 @@
-import React from 'react'
+
+'use client'
+import React, { useState } from 'react'
+
 import Heroimage from '../../public/hero.jpg'
 import { Disclosure, Tab, Transition } from '@headlessui/react'
 
@@ -39,13 +42,22 @@ const ListItem = ({  text }) => {
     );
   };
 
-export const metadata = {
-    title: 'Learn Teach Global   -  Certificate in TESOL Education Information  ',
-    description: 'Arabic   Education Information',
-};
+
 const Footbal = () => {
 
 
+    const [showMore, setShowMore] = useState(false);
+    const items = [
+        'Item 1',
+        'Item 2',
+        'Item 3',
+        'Item 4',
+        'Item 5',
+        'Item 6',
+        'Item 7',
+        'Item 8',
+        'Item 9',
+      ];
       
     return (
         <div className={`${dgrek.className} flex flex-col md:flex-row md:p-10 justify-center items-center`}>

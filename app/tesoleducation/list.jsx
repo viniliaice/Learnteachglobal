@@ -1,3 +1,4 @@
+'use client'
 import { Disclosure, Transition } from '@headlessui/react'
 import React, { useState } from 'react'
 

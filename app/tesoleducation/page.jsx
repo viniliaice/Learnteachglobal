@@ -1,6 +1,5 @@
-
-
-import React from 'react'
+'use client'
+import React, { useState } from 'react'
 
 import Heroimage from '../../public/hero.jpg'
 import { Disclosure, Tab, Transition } from '@headlessui/react'
@@ -42,10 +41,7 @@ const ListItem = ({  text }) => {
     );
   };
 
-export const metadata = {
-    title: 'Learn Teach Global   -  Certificate in TESOL Education Information  ',
-    description: 'Certificate in TESOL Education Information',
-};
+
 const Footbal = () => {
 
 
