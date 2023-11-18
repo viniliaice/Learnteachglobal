@@ -1,6 +1,6 @@
 
-'use client'
-import React, { useState } from 'react'
+
+import React from 'react'
 
 import Heroimage from '../../public/hero.jpg'
 import { Disclosure, Tab, Transition } from '@headlessui/react'
@@ -49,19 +49,6 @@ export const metadata = {
 const Footbal = () => {
 
 
-    const [showMore, setShowMore] = useState(false);
-    const items = [
-        'Item 1',
-        'Item 2',
-        'Item 3',
-        'Item 4',
-        'Item 5',
-        'Item 6',
-        'Item 7',
-        'Item 8',
-        'Item 9',
-      ];
-      
     return (
         <div className={`${dgrek.className} flex flex-col md:flex-row md:p-10 justify-center items-center`}>
             <div className=" min-w-md max-w-md  md:h-1/2 bg-rose-200 mb-8  rounded-xl overflow-hidden">
